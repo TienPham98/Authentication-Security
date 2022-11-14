@@ -28,7 +28,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb+srv://Nhattien98:%3CNhattien12%3E@cluster0.wmycumr.mongodb.net/test", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://Nhattien98:Nhattien12@cluster0.wmycumr.mongodb.net/test", {useNewUrlParser: true});
 
 const userSchema = new mongoose.Schema ({
     email: String,
