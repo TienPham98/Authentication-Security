@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "18.12.1"
+    "node": "v18.12.1"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
